@@ -7,6 +7,13 @@ notifications:
       - geekshubs:eh2nplu2RlomMlryZkNdHDlc
     on_success: never
     on_failure: always
+    rooms:
+      - travisnotific-r1j8011:vSTulN5f4aIY18sZ46Og7kcp
+      - travisnotific-r1j8011:7s2QnoWHP8Cvz5ABZeFjvllX
+      - geekshubs:bQGWBhTxwJf2lGkssg1uaq3h
+      - geekshubs:S32At4pC3DX58sqtloCFQXyz
+    on_success: always
+    on_failure: never
 language: python
 dist: trusty
 cache: false
