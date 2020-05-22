@@ -10,6 +10,11 @@ notifications:
     on_success: never
     on_failure: always
     rooms: geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis-failures
+    template:
+        - "Build: <%{build_url}| %{build_number}> | Commit (<%{compare_url}|%{commit}>): %{commit_message}"
+        - "Repo@Branch: %{repository_slug}@%{branch}"
+        - "Author: %{author}" 
+        - "Summary: %{result} in %{duration}"
 language: python
 dist: trusty
 cache: false
