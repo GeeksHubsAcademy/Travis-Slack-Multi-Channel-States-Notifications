@@ -1,5 +1,5 @@
 notifications: 
- slack: geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis-failures
+ slack: geekshubs:S32At4pC3DX58sqtloCFQXyz
     on_success: never
     on_failure: always
     template:
