@@ -18,6 +18,8 @@ notifications:
       - travisnotific-r1j8011:vSTulN5f4aIY18sZ46Og7kcp
       - travisnotific-r1j8011:7s2QnoWHP8Cvz5ABZeFjvllX
       - geekshubs:S32At4pC3DX58sqtloCFQXyz
+    on_success: always
+    on_failure: always
     template:
       - "%{repository_slug} (%{commit}) : %{message}"
       - "Build details: %{build_url}"
