@@ -6,7 +6,11 @@ notifications:
       - geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis
     on_success: always
     on_failure: always
-   
+  rooms:
+      - geekshubs:eh2nplu2RlomMlryZkNdHDlc#gh-un-it-recruitment-candis-failures
+    on_success: never
+    on_failure: always
+    
 language: python
 dist: trusty
 cache: false
