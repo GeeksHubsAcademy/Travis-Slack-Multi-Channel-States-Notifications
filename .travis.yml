@@ -1,6 +1,6 @@
 notifications:
   slack:
-    rooms: geekshubs:eh2nplu2RlomMlryZkNdHDlc#gh-un-it-recruitment-candis-failures
+    rooms: geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis-failures
     on_success: never
     on_failure: always 
     rooms:
