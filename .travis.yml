@@ -6,15 +6,10 @@ notifications:
       - geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis
     on_success: always
     on_failure: always
-    template:
-        - "%{repository_slug} (%{commit}) : %{message}"
-        - "Build details: %{build_url}"
+  slack:    
     rooms: geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis-failures
     on_success: never
     on_failure: always
-    template:
-        - "%{repository_slug} (%{commit}) : %{message}"
-        - "Build details: %{build_url}"
 language: python
 dist: trusty
 cache: false
