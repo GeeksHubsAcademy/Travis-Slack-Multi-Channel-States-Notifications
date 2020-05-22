@@ -1,14 +1,14 @@
 notifications:
   slack:
     - rooms:
-        - geekshubs:eh2nplu2RlomMlryZkNdHDlc#gh-un-it-recruitment-candis-failures
+        - geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis-failures
       on_success: never
       on_failure: always
       template:
         - "%{repository_slug} (%{commit}) : %{message}"
         - "Build details: %{build_url}"
     - rooms:
-        - geekshubs:bQGWBhTxwJf2lGkssg1uaq3h#gh-un-it-recruitment-candis-success
+        - geekshubs:S32At4pC3DX58sqtloCFQXyz#gh-un-it-recruitment-candis-success
       on_success: always
       on_failure: never
       template:
