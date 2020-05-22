@@ -8,8 +8,7 @@ notifications:
     on_failure: always
     rooms: geekshubs:eh2nplu2RlomMlryZkNdHDlc#gh-un-it-recruitment-candis-failures
     on_success: never
-    on_failure: always
-    
+    on_failure: always 
 language: python
 dist: trusty
 cache: false
